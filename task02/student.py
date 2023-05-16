@@ -4,7 +4,10 @@ from human import Human
 class Student(Human):
     def hello(self):
         super().hello()
-        print(" I'm a student")
+        print(" I'm a student.")
+
+    def work(self):
+        print("I can study.")
 
 
 def main():

@@ -8,3 +8,4 @@ class LaborExchange:
             for human in humans:
                 if isinstance(human, Human):
                     human.hello()
+                    human.work()
