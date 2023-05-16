@@ -1,5 +1,6 @@
 from zebra import Zebra
-import  random
+import random
+
 
 def main():
     zebra1 = Zebra("First")
@@ -15,13 +16,13 @@ def main():
     for zebra in zebras:
         print(zebra)
 
-
     # for _ in range(4):
     #     print(zebra1.get_stripe())
     #
     # for _ in range(5):
     #     print(zebra2.get_stripe())
     #     print(zebra3.get_stripe())
+
 
 if __name__ == "__main__":
     main()
