@@ -9,7 +9,7 @@ class Zebra(Animal):
         # False - white line
 
     def get_stripe(self):
-        msg = "black line" if self.__state else "white line"
+        msg = "black line " if self.__state else "white line "
         msg += f"from {self.name} zebra "
 
         self.__state = not self.__state
@@ -18,7 +18,7 @@ class Zebra(Animal):
 
     def __str__(self):
         return (super().__str__()
-                + f"State of zebra - "
+                + f" State of zebra - "
                 + ("black line." if self.__state else "white line."))
 
 
